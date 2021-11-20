@@ -1,0 +1,68 @@
+/**
+ * @name         DarkWeb
+ * @description  Приятная тема для глаза от DarkWeb
+ * @author       Anon272
+ * @version      1.5
+ * @donate       https://www.donationalerts.com/r/anon272
+ * @source       https://github.com/Anon272-dev/DarkWeb-discord-theme
+ * @invite       edyu98xk2s
+ * @authorId     897184953828278293
+ */
+
+
+@import "https://anon272-dev.github.io/DarkWeb-discord-theme/DarkWeb.css";
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c');
+@import url('https://codedotspectra.github.io/themes/core/custom-font.css');
+@import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
+@import url('https://discord-theme-addons.github.io/gradientbuttons-v2/src/support/compiled.css');
+@import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
+
+
+:root { 
+ --roundness: 0px; /* устанавливает округлость для аватарок */
+ --main-color: #FF0000FF; /* Основной цвет  */
+ --hover-color: #000000FF; /* вторичный цвет темы, в основном используемый как цвет при наведении курсора */
+ --home-color: #eeeeee; /* цвет домашнего значка */
+ --shadow: #00000066; /* цвет теней  */
+
+
+ /* ---- base -- */
+    --indicator-hovered: rgba(79, 84, 92, 0.25);
+    --indicator-rounding: 0;
+    --indicator-border-info: 2px solid;
+
+    /* ---- selected -- */
+    --indicator-selected: 112, 135, 215;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+    /* ---- unreads -- */
+    --indicator-unread: 255, 255, 255;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+    
+    /* ---- connected -- */
+    --indicator-connected: 67, 181, 129;
+    --indicator-connected-border: rgba(var(--indicator-connected));
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+
+/* Gradients */
+    --gradient-special: 140deg, #8980F0 0%, #D577F0 100%;
+    --gradient-blurple: 140deg, #5865f2 0%, #2a328a 100%;
+    --gradient-green: 140deg, #3BA55D 0%, #15662f 100%;
+    --gradient-yellow: 140deg, #FAA81A 0%, #be8013 100%;
+    --gradient-red: 140deg, #ed4245 0%, #912b2d 100%;
+    --gradient-grey: 140deg, #747F8D 0%, #3c424b 100%;
+
+    /* Transitions */
+    --button-transition: 0.1s linear;
+    --font-default: 500;
+    --font-hover: bold;
+    --fontsize-hover: 15px;
+    --transform-normal: scale(1);
+    --transform-hover: scale(1.15);
+    --button-transform-hover: scale(1.04);
+
+ }
