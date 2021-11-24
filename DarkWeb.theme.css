@@ -4,6 +4,8 @@
  * @author       Anon272
  * @version      1.5
  * @donate       https://www.donationalerts.com/r/anon272
+ * @website      http://188.134.84.29/index.php
+ * @authorLink   https://discordhub.com/profile/897184953828278293
  * @source       https://github.com/Anon272-dev/DarkWeb-discord-theme
  * @invite       edyu98xk2s
  * @authorId     897184953828278293
@@ -16,6 +18,7 @@
 @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
 @import url('https://discord-theme-addons.github.io/gradientbuttons-v2/src/support/compiled.css');
 @import url('https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css');
+@import url('https://anon272-dev.github.io/DarkWeb-discord-theme/font.css');
 
 
 :root { 
@@ -25,8 +28,20 @@
  --home-color: #eeeeee; /* цвет домашнего значка */
  --shadow: #00000066; /* цвет теней  */
 
+  --Font-Used: 'Content', cursive;
+  /* https://nfld99.github.io/Better-Discord/Font_List.txt */
+  --Font-Size: 15px ;
+  /* mediumxx-smallx-smallsmalllargex-largexx-largesmallerlargerlengthinitialinherit; */
+  --Font-Style: normal ;
+  /* normalitalicobliqueinitialinherit; */
+  --Font-Weight: 200 ;
+  /* normalboldbolderlighternumberinitialinherit */
+  --Font-Variant: normal ;
+  /* normalsmall-capsinitialinherit */
+ 
 
- /* ---- base -- */
+
+    /* ---- base -- */
     --indicator-hovered: rgba(79, 84, 92, 0.25);
     --indicator-rounding: 0;
     --indicator-border-info: 2px solid;
@@ -66,3 +81,22 @@
     --button-transform-hover: scale(1.04);
 
  }
+
+
+
+
+
+
+
+*:not([class*="hljs"]):not(code){
+  font-family: var(--Font-Used)!important;
+  font-style: var(--Font-Style)!important;
+  font-weight:  var(--Font-Weight)!important;
+  font-variant: var(--Font-Variant)!important;
+}
+
+
+
+.markup:not(code) {
+  font-size: var(--Font-Size)!important;
+}
