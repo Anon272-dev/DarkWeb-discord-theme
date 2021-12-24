@@ -10,11 +10,11 @@
   --theme-version: "1.5";
   --main-color: #16356d;
   --hover-color: #1c4faf;
-  --online: #43b581;
-  --idle: #faa61a;
-  --dnd: #f04747;
-  --offline: #636b75;
-  --invisible: #747f8d;
+  --online: #00ff00;
+  --idle: #ffb700;
+  --dnd: #ff0000;
+  --offline: #696969;
+  --invisible: #1100ff;
   --streaming: #643da7;
   --home-color: #eee;
   --home-size: 24px;
